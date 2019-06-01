@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles:
+    application:
+      name: dayu-dev
+
+---
+spring:
+  profiles:
+    application:
+      name: dayu-test
